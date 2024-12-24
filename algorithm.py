@@ -5,7 +5,7 @@
         if mine_positions:
             safespot = [mine for game in mine_positions for mine in game][:safe_amount]
             board = self.board(safespot=safespot)
-        return board,safespot
+        return board
 
 
      def Probability(self, safe_amount, mine_positions):
