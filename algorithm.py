@@ -1,4 +1,4 @@
-# Those are 2 algorithms of the algorithms i am using the bot.
+# Those are 2 algorithms of the algorithms that using in the bot.
     def PastGame(self, safe_amount, mine_positions):
         if not mine_positions:
             return "None"
